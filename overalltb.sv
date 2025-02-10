@@ -92,7 +92,7 @@ class packet_sequence extends uvm_sequence#(packet_transaction);
     endtask
 endclass
 
-//master0 driver
+//master0 drive
 class M0_driver extends uvm_driver#(packet_transaction);
     `uvm_component_utils(M0_driver)
 
