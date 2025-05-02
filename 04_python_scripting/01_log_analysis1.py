@@ -1,6 +1,6 @@
 import re
 import os
-import pandas as pd
+import pandas as pd # type: ignore
 
 def parse_log_file(log_file_path):
     err_count = 0
