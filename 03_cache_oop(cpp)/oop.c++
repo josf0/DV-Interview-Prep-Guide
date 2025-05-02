@@ -28,6 +28,16 @@ using std::string;
     for accessing the methods of inherited class methods
 */
 
+/*
+    stack vs heap memory allocation:
+    stack Allocation: happens automatically when we cerated an object handle
+        Memory access from stack is fast
+        automatically freed when the function exits so data is short live
+    Heap Allocation: happens when you use new, malloc , e.t.c
+        Heap access is slower
+        Life time access need to manually free the memory using delete
+*/
+
 //class, object and constructor function
 class Employee {
 public:
