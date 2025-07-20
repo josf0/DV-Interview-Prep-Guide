@@ -1,3 +1,9 @@
+#scenario:
+    #Assume you have a file.txt which has certain rows and columns with whitespace
+    #Finds columns that start with metal_*.
+	#Extracts those values along with a corresponding id column.
+	#Displays the result.
+
 # Open the text file in read mode using the 'with' statement.
 # This ensures the file will be properly closed after reading.
 with open('data.txt', 'r') as file:
