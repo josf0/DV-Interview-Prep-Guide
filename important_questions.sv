@@ -262,6 +262,7 @@
 	/*
 		✅ Function
 			•	Must return a value.
+      			•	Can be made to not return a value using 'void' keyword.
 			•	Cannot have timing controls like #, @, or wait.
 			•	Executes in zero simulation time.
 			•	Used for pure computations (e.g., arithmetic, logic).
