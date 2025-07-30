@@ -230,6 +230,7 @@
 
 	/*
 		Phase and their Description
+  
 		reset_phase
 		Apply and monitor reset.
 
@@ -242,6 +243,10 @@
 		shutdown_phase
 		Graceful test wrap-up.
 
+  		All the above phases also have their own pre-phases and post-phases. Eg; pre-reset, reset, post-reset.
+
+      		The below phases are post run_phase UVM phases.
+	
 		extract_phase
 		Gather results.
 
