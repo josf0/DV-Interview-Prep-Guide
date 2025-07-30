@@ -271,7 +271,8 @@
 			•	Cannot have timing controls like #, @, or wait.
 			•	Executes in zero simulation time.
 			•	Used for pure computations (e.g., arithmetic, logic).
-			•	Only allows input arguments.
+			•	Can have input, output or inout arguments.
+			•	Arguments can be passed through pass-by-reference using ref keyword.
 			•	Cannot be forked or run in parallel.
 			•	Can be called inside expressions (e.g., if (my_func(x))).
 
