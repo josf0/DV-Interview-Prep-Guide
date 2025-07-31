@@ -1166,7 +1166,7 @@ endmodule
 		Dynamic size array: An array whose size can be changed during run time.
 		Associative array: Associative array is used when size is not known. Dict format using key value pair storage.
 			It doesn't preserve the order of storage. accessing element of this is O(1).
-			
+		Queues: An array in SV which can dynamically grow or shrink its size based on data.
 		dynamic array:
 
 		int array[];
